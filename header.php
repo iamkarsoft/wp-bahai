@@ -39,6 +39,7 @@
           							'container'=>false,
           							'menu'=>'primary-menu',
           							'menu_class'=>'nav navbar-nav ',
+                             'walker'=> new  wp_bootstrap_navwalker
                       
           						);
           					wp_nav_menu($defaults);

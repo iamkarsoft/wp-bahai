@@ -30,6 +30,10 @@ function theme_styles(){
 	) );
 
 
+    //adding walker class to functions for responsive
+  require_once dirname(__File__).'/wp_bootstrap_navwalker.php';
+
+
 function theme_widgets_init(){
 
       register_sidebar( array(
