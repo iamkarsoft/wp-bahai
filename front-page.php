@@ -12,17 +12,27 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="..." alt="...">
+    <img src="https://images.unsplash.com/photo-1435771112039-1e5b2bcad966?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
       <div class="carousel-caption">
         ...
       </div>
     </div>
     <div class="item">
-      <img src="..." alt="...">
+     <img src="https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
       <div class="carousel-caption">
         ...
       </div>
     </div>
+
+     <div class="item">
+    <img src="https://images.unsplash.com/photo-1440557958969-404dc361d86f?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+    <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+
+
     ...
   </div>
 
@@ -39,12 +49,32 @@
 
 
 <?php }; ?>
-
 </div>
+
 		<section class="container">
-			<?php if(have_posts()): ?>
-				<?php get_template_part('templates/content'); ?>
-			<?php endif ?>
+			  <div class="col-md-4">
+    <?php if(!dynamic_sidebar('widget-1')) : ?>
+          <p>
+            Add widget to first widgets.
+          </p>
+    <?php endif; ?>
+  </div>
+  <div class="col-md-4">
+    <?php if(!dynamic_sidebar('widget-2')) : ?>
+          <p>
+            Add widget to second widgets.
+          </p>
+    <?php endif; ?>
+  </div>
+
+    <div class="col-md-4">
+    <?php if(!dynamic_sidebar('widget-1')) : ?>
+          <p>
+            Add widget to first widgets.
+          </p>
+    <?php endif; ?>
+  </div>
+
 			
 		</section>
 
