@@ -44,7 +44,7 @@ function theme_widgets_init(){
 
           register_sidebar( array(
               'name' => __( '2nd  Widget', 'bahai' ),
-              'id' => 'widget-1',
+              'id' => 'widget-2',
         'before_widget'=>'<div class="main-widgets">',
             'after_widget'=>'</div>',
 
@@ -54,7 +54,7 @@ function theme_widgets_init(){
 
           register_sidebar( array(
               'name' => __( '3rd  Widget', 'bahai' ),
-              'id' => 'widget-2',
+              'id' => 'widget-3',
         'before_widget'=>'<div class="main-widgets">',
             'after_widget'=>'</div>',
 

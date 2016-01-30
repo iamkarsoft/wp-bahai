@@ -20,6 +20,10 @@ Tags: white
 
 }
 
+.item img{
+	height: 350px;
+}
+
 .a{
 	text-decoration: none;
 
@@ -30,5 +34,14 @@ Tags: white
 }
 
 #navigation{
-	border-bottom: 2px solid #000;
+
+}
+
+.icon-bar{
+	background: #000000;
+}
+
+.container{
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
