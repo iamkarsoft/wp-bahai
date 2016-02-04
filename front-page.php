@@ -42,4 +42,20 @@
 			
 		</section>
 
+    <section class="latest">
+                
+                <?php
+          $args = array( 'numberposts' => 3 );
+          $lastposts = get_posts( $args );
+          foreach($lastposts as $post) : setup_postdata($post); ?>
+          <div class="col-lg-4  col-sm-6">
+                  <div class="thumbnail">
+            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <?php the_content(); ?>
+          <?php endforeach; ?>
+
+          </div>
+            </div>
+    </section>
+
 <?php get_footer(); ?>
