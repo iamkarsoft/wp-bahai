@@ -18,16 +18,17 @@ function theme_styles(){
 	wp_enqueue_style('bootstrap-style', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
 	wp_enqueue_style('fontawesome-style', '//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 	wp_enqueue_script('bootstrap-js', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js',array('jquery'),'',false);
-
+// to remove after development
+wp_enqueue_style('bootstraps-style',get_template_directory_uri().'/css/bootstrap.min.css');
+wp_enqueue_style('font-awesomes',get_template_directory_uri().'/css/font-awesome.min.css');
+wp_enqueue_script('bootstraps-js',get_template_directory_uri().'/js/bootstrap.min.js',array('jquery'),'',true);
+// end to remove
 	wp_enqueue_style('main-style',get_template_directory_uri().'/style.css');
 
 	} add_action('wp_enqueue_scripts','theme_styles');
 
 	// This theme uses wp_nav_menu() in two locations.
-	register_nav_menus( array(
-		'primary' => __( 'Primary Menu')
-		
-	) );
+register_nav_menu('primary','Primary');
 
 
     //adding walker class to functions for responsive
@@ -72,5 +73,32 @@ function theme_widgets_init(){
 
   add_action( 'widgets_init', 'theme_widgets_init' );
 
+  function bahai_theme_customizer($wp_customize){
+      $wp_customize->add_section('footer_settings_section',array(
+          'title'=>'Footer Settings'
+        ));
+
+      $wp_customize->add_setting('footer_setting',array(
+          'default'=> 'Add some text',
+          'sanitize_callback'=>'bahai_theme_sanitize_text'
+        ));
+
+      $wp_customize->add_control('footer_setting',array(
+          'label'=>"Footer text:",
+          'section'=>'footer_settings_section',
+          'type'=>'textarea'
+        ));
+
+      function bahai_theme_sanitize_text($input){
+
+        return wp_kses_post(
+            force_balance_tags($input,array('strong'=>array(), 'a'=>array('href'))));
+
+      }
+    
+    }add_action('customize_register','bahai_theme_customizer');
+
+
+  
 
  ?>

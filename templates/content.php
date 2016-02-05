@@ -1,7 +1,7 @@
 
 <article>
 	<?php while(have_posts()):the_post(); ?>
-		<section class="post">
+		<section class="blog-wrapper">
 		  <div class="col-lg-4  col-sm-6">
                   <div class="thumbnail">
 

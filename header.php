@@ -12,10 +12,10 @@
 </head>
 
 <body <?php body_class();?>>
-<div id="wrapper" class="container">
-
-      <div id="navigation">
-      <div class="container">
+<div id="wrapper">
+<section id="navigation" class="navbar container">
+     
+      
            <div class="navbar-header ">
           <div class="navbar-brand ">
             <?php bloginfo('name'); ?>
@@ -29,26 +29,11 @@
           				<div class="collapse navbar-collapse navbar-right col-md-12 text-center">
 
 
-          					<?php
-          					if ( has_nav_menu( 'primary' ) ) {
-               wp_nav_menu( array( 'theme_location' => 'primary-menu' ,
-               	) );
-          } else{
+          			
 
-          	$defaults= array(
-          							'container'=>false,
-          							'menu'=>'primary-menu',
-          							'menu_class'=>'nav navbar-nav ',
-                             'walker'=> new  wp_bootstrap_navwalker
-                      
-          						);
-          					wp_nav_menu($defaults);
-
-          				}
-
-          						?>
-                    </div>
-
+                      <?php wp_nav_menu( array( 'theme_location' => 'primary',  'container'=>false,
+                        'menu'=>'primary-menu',
+                        'menu_class'=>'nav navbar-nav ', 'walker'=> new  wp_bootstrap_navwalker ) ); ?> 
 
                     </div>
-          		</div>
+</section>        	
