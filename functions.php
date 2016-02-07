@@ -34,7 +34,8 @@ register_nav_menu('primary','Primary');
     //adding walker class to functions for responsive
   require_once dirname(__File__).'/wp_bootstrap_navwalker.php';
 
-
+//hook plugins into theme
+ include_once dirname( __FILE__ ).'/wp-bahai-plugins.php';
 function theme_widgets_init(){
 
       register_sidebar( array(
