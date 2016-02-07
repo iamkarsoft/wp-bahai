@@ -7,8 +7,18 @@
 
         
 				<h3 class="post-title"><a href="<?php the_permalink()?>"> <?php the_title(); ?></a></h3>
+				<!-- edit link --><h6><?php edit_post_link('edit','<small class="edit">','</small>') ?></h6>
+				
 				<section class="post-content">
 						<?php the_excerpt(); ?>
+
+						<br>
+
+
+				</section>
+
+				<section class="readmore clear-fix">
+					<a href="<?php the_permalink()?>"><?php esc_html_e('Read Post','bahai') ;?></a>
 				</section>
 
 				  </div>

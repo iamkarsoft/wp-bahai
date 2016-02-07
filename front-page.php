@@ -61,8 +61,12 @@
         <div class="thumbnail">
             <h4 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
             <?php the_excerpt(); ?>
+
+            
                   </div>
+
       </div>
+
           <?php endforeach; ?>
 
     

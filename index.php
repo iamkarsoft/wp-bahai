@@ -1,15 +1,22 @@
 <?php get_header(); ?>
 <div class="container">
 <?php if(is_front_page()){ ?>
-<div class="jumbotron">
-    <h1>The Image Gallery</h1>
-    <p>A bunch of beautiful images that i didn't take</p>
-  </div>
 
+<?php echo do_shortcode('[image-carousel]'); ?>
 
 <?php }; ?>
 
 </div><!-- /.container  -->
+
+<section class="container">
+			<ul class="pagination center-text">
+
+					<li><?php previous_posts_link('Previous Page'); ?></li>
+
+					<li><?php next_posts_link('Next Page'); ?></li>
+				</ul>
+		</section>
+
 		<section class="container">
 		 
 			<?php if(have_posts()): ?>
@@ -18,4 +25,12 @@
 			
 		</section>
 
+		<section class="container">
+			<ul class="pagination center-text">
+
+					<li><?php previous_posts_link('Previous Page'); ?></li>
+
+					<li><?php next_posts_link('Next Page'); ?></li>
+				</ul>
+		</section>
 <?php get_footer(); ?>

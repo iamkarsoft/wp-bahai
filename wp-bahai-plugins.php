@@ -98,8 +98,8 @@ function my_theme_register_required_plugins() {
 
 
 		array(
-			'name' => 'wp-smart-pagination',
-			'slug' => 'wp-smart-pagination',
+			'name' => 'cpt-bootstrap-carousel',
+			'slug' => 'cpt-bootstrap-carousel',
 			'required' => false,
 		),
 

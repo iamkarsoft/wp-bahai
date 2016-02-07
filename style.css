@@ -17,28 +17,21 @@ body{
 
 }
 
-/* Featured Post Carousel */
- 
-#featured {
-    padding: 10px 10px 0 20px;
-    }
- 
-#carousel {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    }
- 
-#carousel li {
-    float: left;
-    padding: 0;
-    margin-right: 10px;
-    }
+.pagination{
+	text-align: center;
+	margin-left: 5%;
+}
 
-.jumbotron{
-	min-height: 300px;
+.pagination li>a{
+	color:#fafafa;
+	background: #000000;
+	font-weight: bold;
+}
 
+.pagination li>a:hover{
+	color: #fafafa;
+	background:#f45;
+	font-weight: bold;
 }
 
 
