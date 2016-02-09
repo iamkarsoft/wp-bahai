@@ -13,12 +13,18 @@
 
 <body <?php body_class();?>>
 <div id="wrapper">
-<section id="navigation" class="navbar container">
+<section id="navigation" class="navbar row">
      
       
            <div class="navbar-header ">
           <div class="navbar-brand ">
-            <?php bloginfo('name'); ?>
+           
+            <ul class="list-inline text-center">
+            <li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>"> <?php bloginfo('name'); ?></a></li>
+      <li><a href="#" target="_blank"><span class="fa fa-facebook fa-1x"></span></a></li>
+      <li><a href="#" target="_blank"><span class="fa fa-twitter fa-1x"></span></a></li>
+      <li><a href="#" target="_blank"><span class="fa fa-youtube fa-1x"></span></a></li>
+    </ul>
           </div>
                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
                    <span class="icon-bar"></span>

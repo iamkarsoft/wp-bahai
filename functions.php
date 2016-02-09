@@ -100,6 +100,4 @@ function theme_widgets_init(){
     }add_action('customize_register','bahai_theme_customizer');
 
 
-  
-
  ?>

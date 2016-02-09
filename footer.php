@@ -1,5 +1,12 @@
 <?php wp_footer(); ?>
 
+<script type="text/javascript">
+$('.carousel').carousel({
+interval: 2000,
+pause: hover
+});
+</script>
+
 <footer class="container ">
 	<div class="col-lg-4  col-sm-6"> &copy;<?php echo date('Y') ?>	<?php  echo  get_theme_mod('footer_setting'); ?></div>
 	<div class="col-lg-4  col-sm-6">
