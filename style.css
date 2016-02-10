@@ -173,6 +173,20 @@ color: #ee3853;
 
 }
 
+nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #fafafa;
+   color:#68ae5d;
+
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: #68ae5d;
+    text-decoration: none;
+    background-color: #fafafa;;
+    outline: 0;
+}
+
+
 
 .blog-wrapper .thumbnail{
 	min-height: 300px;
