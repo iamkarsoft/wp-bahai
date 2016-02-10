@@ -1,5 +1,5 @@
 
-<article class="post">
+<article class="post" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php while(have_posts()):the_post(); ?>
 		<section class="small-nav">
 			<span class="xs-small"> <a href="<?php echo esc_url( home_url( '/' ) ); ?>"> Home </a> / <?php the_title() ?></span>

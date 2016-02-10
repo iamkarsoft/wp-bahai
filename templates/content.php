@@ -3,7 +3,7 @@
 	<?php while(have_posts()):the_post(); ?>
 		<section class="blog-wrapper">
 		  <div class="col-lg-4  col-sm-6">
-                  <div class="thumbnail">
+                  <div class="thumbnail" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
         
 				<h3 class="post-title"><a href="<?php the_permalink()?>"> <?php the_title(); ?></a></h3>
