@@ -95,6 +95,7 @@ body{
 .front-page-widgets .thumbnail{
 	border-radius:0;
 	min-height: 300px;
+	max-height: 300px;
 	padding: 2%;
 }
 
@@ -232,6 +233,7 @@ background: #d2d9e2;
 
 .blog-wrapper .thumbnail{
 	min-height: 300px;
+		max-height: 300px;
 	border: 2px solid #d2d9e2;
 }
 
