@@ -13,14 +13,18 @@ Tags: white
 */
 
 body{
-	background: #ffffff;
+	background: #f5f6f6;
 
+}
+.thumbnail{
+	border-bottom:6px solid #d2d9e2; 
 }
 
 .pagination{
 	text-align: center;
 	margin-left: 5%;
 }
+
 
 .pagination li>a{
 	color:#fafafa;
@@ -94,11 +98,14 @@ body{
 	padding: 2%;
 }
 
-
+.page,.post{
+	min-height:350px;
+}
 
 	footer{
-		border-top:2px solid #000;
+	background: #d2d9e2;
 		padding-top:1%; 
+		padding: 4%;
 	}
 
 
@@ -125,6 +132,15 @@ color: #ee3853;
 	
 
 }
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.latest .page-header{
+	padding: 4%;
+}
 
 .latest-title{
 	margin-bottom: 2%;
@@ -133,9 +149,9 @@ color: #ee3853;
 /*navigation*/
 
 #navigation{
-	border-bottom: 1px solid #000;
+
 	font-weight: bold;
-	border-top: 5px solid #000;
+background: #d2d9e2;
 	padding:10px;
 }
 
@@ -143,16 +159,16 @@ color: #ee3853;
 	background: #000000;
 }
 .navbar{
-	background: #fafafa;
+	
 	border-radius: 0;
 }
 
-
-.nav> .menu-item a:hover{
-	
-	color: #68ae5d;
-	font-weight: bold;
+.navbar-nav > li > a:hover {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: transparent;
 }
+
 
 .nav>.current-menu-item a{
 
@@ -177,30 +193,46 @@ color: #ee3853;
 	padding-top: 0;
 	
 }
-.nav > li > a:hover, .nav > li > a:focus{
-	background: #fafafa;
 
+
+
+.dropdown-menu > li  {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    background: #f5f6f6;
+    color: #000000;
+    margin:1%;
+    border: 0;
 }
 
-nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    background-color: #fafafa;
-   color:#68ae5d;
-
+.dropdown-menu{
+	background: #f5f6f6;
+	border: 0;
+	margin:0;
+	padding:0;
 }
 
-.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
-    color: #68ae5d;
-    text-decoration: none;
-    background-color: #fafafa;
-    outline: 0;
-    text-align: left;
+.dropdown-menu > li > a {
+       background: #f5f6f6;
+    color: #000000;
+}
+
+
+.dropdown-menu > li > a:hover {
+  background: #f5f6f6;
+  color: #000000;
 }
 
 
 
 .blog-wrapper .thumbnail{
 	min-height: 300px;
-	border: 0;
+	border: 2px solid #d2d9e2;
 }
 
 .row{
@@ -216,11 +248,11 @@ font-weight: x-large;
 margin-left: 4%;
 }
 
-.readmore a{
+.readmore a,.read-more {
 	color: #f45;
 }
 
-.readmore a:hover{
+.readmore a:hover,.read-more:hover {
 	color: #000;
 }
 .readmore a:after{

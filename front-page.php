@@ -60,11 +60,17 @@
           foreach($lastposts as $post) : setup_postdata($post); ?>
                <div class="col-lg-4  col-sm-6">
         <div class="thumbnail">
-            <h4 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+            <h4 class="post-title page-header"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
             <?php the_excerpt(); ?>
 
+                    <section class="readmore clear-fix">
+          <a href="<?php the_permalink()?>"><?php esc_html_e('Read Post','bahai') ;?></a>
+        </section>
             
                   </div>
+
+
+
 
       </div>
 

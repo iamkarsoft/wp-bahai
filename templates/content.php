@@ -17,10 +17,7 @@
 
 				</section>
 
-				<section class="readmore clear-fix">
-					<a href="<?php the_permalink()?>"><?php esc_html_e('Read Post','bahai') ;?></a>
-				</section>
-
+				
 				  </div>
             </div>
 		</section>
