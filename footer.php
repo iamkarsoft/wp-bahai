@@ -38,7 +38,9 @@ pause: hover
 
 Smooch.init({
     appToken: '41h367kgvi7tmc4meflpcj9nq',
- 
+    givenName: 'Bahai',
+    surname: 'Chat?',
+  
 });
 </script>
 </div><!-- /#wrapper -->
