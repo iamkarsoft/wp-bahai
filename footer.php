@@ -29,6 +29,7 @@ pause: hover
 
 if( function_exists( 'mc4wp_show_form' ) ) {
     mc4wp_show_form();
+    
 }?>
 	</div>
 </footer>

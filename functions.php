@@ -68,6 +68,16 @@ function theme_widgets_init(){
             'after_title'=>'</h1>'
           ) );
 
+           register_sidebar( array(
+              'name' => __( '4th  Widget', 'bahai' ),
+              'id' => 'widget-4',
+        'before_widget'=>'<div class="main-widgets">',
+            'after_widget'=>'</div>',
+
+            'before_title'=>'<h1 class="widget-title">',
+            'after_title'=>'</h1>'
+          ) );
+
 
 
 }
