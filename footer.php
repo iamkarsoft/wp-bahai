@@ -38,12 +38,7 @@ pause: hover
 
 Smooch.init({
     appToken: '41h367kgvi7tmc4meflpcj9nq',
-    givenName: 'Doctor',
-    surname: 'Who?',
-    email: 'the-doctor@smooch.io',
-    properties: {
-        'customProp': 'whatever you please'
-    }
+ 
 });
 </script>
 </div><!-- /#wrapper -->
