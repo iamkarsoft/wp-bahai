@@ -1,6 +1,6 @@
 /*
 Theme Name: Bahai Youth Ghana
-Theme URI: https://pondertheme.com/
+Theme URI: https://koofi.work/
 Version: 1.0
 Description: A WordPress theme for Bahai Youth Ghana.
 Author: Kofi Amoussou, Peteanna Sarponmaa,
@@ -14,12 +14,18 @@ Tags: white
 
 body{
 	background: #f5f6f6;
+	
+
+background: #FFEEEE; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #FFEEEE , #DDEFBB); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #FFEEEE , #DDEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
 
 }
 .thumbnail{
 	border-bottom:6px solid #d2d9e2; 
 }
-
+/*pagination*/
 .pagination{
 	text-align: center;
 	margin-left: 5%;
@@ -38,6 +44,7 @@ body{
 	font-weight: bold;
 }
 
+/*blog post*/
 .post-categories{
 	display: inline;
 	list-style: none;
@@ -233,7 +240,7 @@ background: #d2d9e2;
 
 .blog-wrapper .thumbnail{
 	min-height: 300px;
-		max-height: 300px;
+		max-height: 320px;
 	border: 2px solid #d2d9e2;
 }
 
