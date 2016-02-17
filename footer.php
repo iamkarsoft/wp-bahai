@@ -33,5 +33,5 @@ pause: hover
     <?php endif; ?>
 	</div>
 </footer>
-
+<script src="https://cdn.smooch.io/smooch.min.js"></script>
 </div><!-- /#wrapper -->
