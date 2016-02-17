@@ -35,6 +35,13 @@ pause: hover
 </footer>
 <script src="https://cdn.smooch.io/smooch.min.js"></script>
 <script>
-Smooch.init({appToken: '41h367kgvi7tmc4meflpcj9nq'});
+Smooch.init({appToken: '41h367kgvi7tmc4meflpcj9nq',
+givenName: 'Doctor',
+    surname: 'Who?',
+    email: 'the-doctor@smooch.io',
+    properties: {
+        'customProp': 'whatever you please'});
+
+
 </script>
 </div><!-- /#wrapper -->
