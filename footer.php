@@ -25,12 +25,12 @@ pause: hover
 	</div>
 
 	<div class="col-lg-4  col-sm-6">
-	<?php
 
-if( function_exists( 'mc4wp_show_form' ) ) {
-    mc4wp_show_form();
-    
-}?>
+  <?php if(!dynamic_sidebar('widget-4')) : ?>
+          <p>
+            Add widget to rhis part.
+          </p>
+    <?php endif; ?>
 	</div>
 </footer>
 
