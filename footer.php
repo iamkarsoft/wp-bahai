@@ -34,4 +34,7 @@ pause: hover
 	</div>
 </footer>
 <script src="https://cdn.smooch.io/smooch.min.js"></script>
+<script>
+Smooch.init({appToken: '41h367kgvi7tmc4meflpcj9nq'});
+</script>
 </div><!-- /#wrapper -->
