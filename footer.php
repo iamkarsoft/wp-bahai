@@ -33,21 +33,21 @@ pause: hover
     <?php endif; ?>
 	</div>
 </footer>
-<!-- <script src="https://cdn.smooch.io/smooch.min.js"></script>
+<script src="https://cdn.smooch.io/smooch.min.js"></script>
 <script>
 
-// Smooch.init({
-//     appToken: '41h367kgvi7tmc4meflpcj9nq',
-//     givenName: 'Bahai',
-//     surname: 'Chat?',
-//       customText: {
-//         headerText: 'How can we help?',
-//         inputPlaceholder: 'Type a message...',
-//         sendButtonText: 'Send',
-//         introText: 'This is the beginning of your conversation.<br/> Ask us anything!',
-//      //   settingsText: 'You can leave us your email so that we can get back to you this way.'
-//     }
+Smooch.init({
+    appToken: '41h367kgvi7tmc4meflpcj9nq',
+    givenName: 'Bahai',
+    surname: 'Chat?',
+      customText: {
+        headerText: 'How can we help?',
+        inputPlaceholder: 'Type a message...',
+        sendButtonText: 'Send',
+        introText: 'This is the beginning of your conversation.<br/> Ask us anything!',
+     //   settingsText: 'You can leave us your email so that we can get back to you this way.'
+    }
   
-// });
-</script> -->
+});
+</script>
 </div><!-- /#wrapper -->
