@@ -14,7 +14,7 @@ Tags: white
 
 body{
 	background: #f5f6f6;
-	
+
 
 background: #FFEEEE; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #FFEEEE , #DDEFBB); /* Chrome 10-25, Safari 5.1-6 */
@@ -239,8 +239,8 @@ background: #d2d9e2;
 
 
 .blog-wrapper .thumbnail{
-	min-height: 300px;
-		max-height: 320px;
+	min-height: 340px;
+		max-height: 340px;
 	border: 2px solid #d2d9e2;
 }
 
