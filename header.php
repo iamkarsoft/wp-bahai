@@ -14,13 +14,15 @@
 <body <?php body_class();?>>
 <div id="wrapper">
 <section id="navigation" class="navbar row">
-     
-      
+
+
            <div class="navbar-header ">
+
           <div class="navbar-brand ">
-           
+
             <ul class="list-inline text-center">
-            <li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>"> <?php bloginfo('name'); ?></a></li>
+			<li> <img src="<?php bloginfo('template_directory');?>/images/logo.png" title="bahai youth logo" alt="logo" class="logo img-responsive" /></li>
+            <li style="margin-left:40px;"> <a href="<?php echo esc_url( home_url( '/' ) ); ?>"> <?php bloginfo('name'); ?></a></li>
       <li><a href="#" target="_blank"><span class="fa fa-facebook fa-1x"></span></a></li>
       <li><a href="#" target="_blank"><span class="fa fa-twitter fa-1x"></span></a></li>
       <li><a href="#" target="_blank"><span class="fa fa-youtube fa-1x"></span></a></li>
@@ -35,11 +37,11 @@
           				<div class="collapse navbar-collapse navbar-right col-md-12 text-center">
 
 
-          			
+
 
                       <?php wp_nav_menu( array( 'theme_location' => 'primary',  'container'=>false,
                         'menu'=>'primary-menu',
-                        'menu_class'=>'nav navbar-nav ', 'walker'=> new  wp_bootstrap_navwalker ) ); ?> 
+                        'menu_class'=>'nav navbar-nav ', 'walker'=> new  wp_bootstrap_navwalker ) ); ?>
 
                     </div>
-</section>        	
+</section>
