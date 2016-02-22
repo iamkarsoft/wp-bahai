@@ -28,7 +28,7 @@ pause: hover
 
   <?php if(!dynamic_sidebar('widget-4')) : ?>
           <p>
-            Add widget to rhis part.
+            Add widget to this part.
           </p>
     <?php endif; ?>
 	</div>
@@ -47,7 +47,7 @@ Smooch.init({
         introText: 'This is the beginning of your conversation.<br/> Ask us anything!',
        settingsText: 'You can leave us your email so that we can get back to you this way.'
     }
-  
+
 });
 </script>
 </div><!-- /#wrapper -->

@@ -124,6 +124,8 @@ background: linear-gradient(to left, #FFEEEE , #DDEFBB); /* W3C, IE 10+/ Edge, F
 	background: #d2d9e2;
 		padding-top:1%;
 		padding: 4%;
+
+
 	}
 
 
@@ -277,4 +279,34 @@ margin-left: 4%;
 .readmore a:after{
 content: " >";
 font-weight: bolder;
+}
+
+
+/*media queries*/
+
+
+
+
+@media (max-height: 1280px){
+
+	footer{
+	background: #d2d9e2;
+		padding-top:1%;
+		padding: 4%;
+		position: relative;
+		bottom: -310px;
+
+	}
+
+}
+@media (max-height: 800px ){
+
+	footer{
+	background: #d2d9e2;
+		padding-top:1%;
+		padding: 4%;
+		position: relative;
+		bottom: -50px;
+	}
+
 }
