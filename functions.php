@@ -1,4 +1,4 @@
-<?php 
+<?php
 if(! isset($content_width))
     $content_width=654; /* pixels */;
 
@@ -9,7 +9,7 @@ function theme_support(){
 		add_theme_support('automatic-feed-links');
 		add_theme_support('post-thumbnails');
 		add_theme_support('menus');
-	
+
 } add_action('after_setup_theme','theme_support');
 
 function theme_styles(){
@@ -106,12 +106,16 @@ function theme_widgets_init(){
             force_balance_tags($input,array('strong'=>array(), 'a'=>array('href'))));
 
       }
-    
+
     }add_action('customize_register','bahai_theme_customizer');
 
+function new_excerpt_length($length){
+  return 60;
+}
+add_filter( 'excerpt_length', 'new_excerpt_length',999);
 
     function new_excerpt_more( $more ) {
-  return '<br> <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __(' || Read More', 'your-text-domain') . '</a>';
+  return '<br><br> <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __(' <span class="fa fa-arrow-circle-right"></span> Read More', 'your-text-domain') . '</a>';
 }
 add_filter( 'excerpt_more', 'new_excerpt_more' );
 

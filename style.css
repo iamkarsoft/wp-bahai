@@ -270,11 +270,19 @@ margin-left: 4%;
 }
 
 .readmore a,.read-more {
+	margin-top: 5px;
 	color: #f45;
+	margin-top: 20px;
+	border:1px solid #f45;
+	border-radius: 6px;
+	padding: 1%;
 }
 
 .readmore a:hover,.read-more:hover {
 	color: #000;
+	border:1px solid #000;
+	border-radius: 6px;
+	padding: 1%;
 }
 .readmore a:after{
 content: " >";
