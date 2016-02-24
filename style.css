@@ -251,8 +251,8 @@ background: #d2d9e2;
 
 
 .blog-wrapper .thumbnail{
-	min-height: 340px;
-		max-height: 340px;
+	min-height: 460px;
+		max-height: 460px;
 	border: 2px solid #d2d9e2;
 }
 
