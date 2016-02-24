@@ -247,7 +247,7 @@ font-weight: x-large;
 margin-left: 4%;
 }
 
-.jumbotron .readmore a,.read-more {
+.jumbotron .readmore a,.jumbotron .read-more {
 	margin-top: 5px;
 	color: #fafafa;
 	margin-top: 20px;
