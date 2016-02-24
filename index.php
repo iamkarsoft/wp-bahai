@@ -2,7 +2,7 @@
 
 
 <section class="container">
-	<div class="jumbotron"style="background:#d0b6b5,color:#fafafa">
+	<div class="jumbotron" >
 	    <?php
           $args = array( 'numberposts' => 1 );
           $lastposts = get_posts( $args );

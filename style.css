@@ -237,6 +237,43 @@ background: #d2d9e2;
 	padding:0;
 }
 
+.jumbotron{
+	background: #53a3bc;
+	color: #fafafa
+}
+
+.jumbotron .readmore{
+font-weight: x-large;
+margin-left: 4%;
+}
+
+.jumbotron .readmore a,.read-more {
+	margin-top: 5px;
+	color: #f45;
+	margin-top: 20px;
+	border:1px solid #000000;
+	border-radius: 6px;
+	padding: 1%;
+}
+.jumbotron h4, .jumbotron .page-header{
+	font-size:x-large;
+	color: #fafafa
+}
+
+.jumbotron h4 a, .jumbotron .page-header a{
+	font-size:x-large;
+	color: #fafafa
+}
+.jumbotron h4 a:hover, .jumbotron .page-header a:hover{
+	font-size:x-large;
+	color: #000;
+}
+.jumbotron .readmore a:hover,.jumbotron .read-more:hover {
+	color: #000;
+	border:1px solid #fafafa;
+	border-radius: 6px;
+	padding: 1%;
+}
 .dropdown-menu > li > a {
        background: #f5f6f6;
     color: #000000;
