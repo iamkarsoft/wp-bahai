@@ -3,8 +3,15 @@
 <div class="container">
 <?php if(is_front_page()){ ?>
 
-<?php echo do_shortcode('[image-carousel]'); ?>
+	<!-- 16:9 aspect ratio -->
+	<div class="embed-responsive embed-responsive-16by9">
+	  <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=wHpOy7vgqtI"></iframe>
+	</div>
 
+	<!-- 4:3 aspect ratio -->
+	<!-- <div class="embed-responsive embed-responsive-4by3">
+	  <iframe class="embed-responsive-item" src="..."></iframe>
+	</div> -->
 <?php }; ?>
 
 </div><!-- /.container  -->
@@ -43,7 +50,7 @@
   </div>
   </div>
 
-			
+
 		</section>
 
     <section class="latest container">
@@ -63,7 +70,7 @@
             <h4 class="post-title page-header"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
             <?php the_excerpt(); ?>
 
-            
+
                   </div>
 
 
@@ -73,7 +80,7 @@
 
           <?php endforeach; ?>
 
-    
+
     </section>
 
 <?php get_footer(); ?>
