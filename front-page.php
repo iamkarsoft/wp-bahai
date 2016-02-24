@@ -1,17 +1,32 @@
 <?php get_header(); ?>
 
-<div class="container">
+<section class="container">
 <?php if(is_front_page()){ ?>
 
 	<!-- 16:9 aspect ratio -->
-	<div class="embed-responsive embed-responsive-16by9">
-	  <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=wHpOy7vgqtI"></iframe>
-	</div>
+	<div class=" col-md-12 jumbotron">
 
-	<!-- 4:3 aspect ratio -->
-	<!-- <div class="embed-responsive embed-responsive-4by3">
-	  <iframe class="embed-responsive-item" src="..."></iframe>
-	</div> -->
+		<div class="col-sm-4 col-md-6">
+
+
+						<iframe width="100%" class="thumbnail" height="315" src="https://www.youtube.com/embed/wHpOy7vgqtI">
+</iframe>
+
+		</div>
+
+
+					<div class="col-sm-4 col-md-6">
+						In this short animation, we present a brief introduction to the Baha'i Faith.
+
+You can also find out more about the Baha'i Faith via bahai.org
+
+And also check out Baha'i Blog's site for a variety of Baha'i related content: bahaiblog.net
+					</div>
+</div>
+	</section>
+
+
+
 <?php }; ?>
 
 </div><!-- /.container  -->
