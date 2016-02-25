@@ -15,12 +15,12 @@
 		</div>
 
 
-					<div class="col-sm-4 col-md-6">
-						In this short animation, we present a brief introduction to the Baha'i Faith.
+					<div class="col-sm-4 col-md-6 lead "style="text-shadow: black 0.1em 0.1em 0.2em">
+						<p>In this short animation, we present a brief introduction to the Baha'i Faith.
 
 You can also find out more about the Baha'i Faith via bahai.org
 
-And also check out Baha'i Blog's site for a variety of Baha'i related content: bahaiblog.net
+And also check out Baha'i Blog's site for a variety of Baha'i related content: bahaiblog.net</p>
 					</div>
 </div>
 	</section>
