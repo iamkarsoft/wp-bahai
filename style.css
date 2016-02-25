@@ -205,8 +205,10 @@ background: #d2d9e2;
 	padding-bottom: 5px;
 }
 .nav>.current-menu-item a:before{
-	content:">> " ;
-
+	font-family: fontAwesome;
+	content:"\f1ae";
+margin-right: 1px;
+color: #53a3bc;
 }
 
 #navigation > .nav li{
@@ -323,8 +325,10 @@ margin-left: 4%;
 	padding: 1%;
 }
 .readmore a:after{
-content: " >";
+font-family: fontAwesome;
+content: "\f18e";
 font-weight: bolder;
+
 }
 
 
