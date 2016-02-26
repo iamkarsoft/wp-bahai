@@ -23,6 +23,16 @@ background: linear-gradient(to left, #FFEEEE , #DDEFBB); /* W3C, IE 10+/ Edge, F
 
 }
 
+.meetings  li{
+	list-style: none;
+}
+
+.meetings ul{
+		border-bottom:6px solid #d2d9e2;
+		padding: 6%;
+		font-size: large;
+}
+
 /*logo*/
 .logo{
 	width: 60px;
