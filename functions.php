@@ -37,6 +37,9 @@ register_nav_menu('primary','primary');
 
 //hook plugins into theme
  include_once dirname( __FILE__ ).'/wp-bahai-plugins.php';
+
+ //hook plugins into theme
+
 function theme_widgets_init(){
 
       register_sidebar( array(
@@ -70,7 +73,7 @@ function theme_widgets_init(){
           ) );
 
            register_sidebar( array(
-              'name' => __( '4th  Widget', 'bahai' ),
+              'name' => __( 'Footer  Widget', 'bahai' ),
               'id' => 'widget-4',
         'before_widget'=>'<div class="main-widgets">',
             'after_widget'=>'</div>',
@@ -121,4 +124,4 @@ add_filter( 'excerpt_length', 'new_excerpt_length',999);
 add_filter( 'excerpt_more', 'new_excerpt_more' );
 
 
- ?>
+
