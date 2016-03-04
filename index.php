@@ -15,7 +15,7 @@
 									            <h4 class="post-title page-header"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 									            <?php the_excerpt(); ?>
 																			</div>
-									          <?php endforeach; ?>
+									          <?php endforeach;  ?>
 
 
 	<?php	}else{
@@ -25,7 +25,7 @@
           foreach($lastposts as $post) : setup_postdata($post); ?>
             <h4 class="post-title page-header"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
             <?php the_excerpt(); ?>
-          <?php endforeach; ?>
+          <?php endforeach;  ?>
 <?php }; ?>
 			</div>
 
@@ -48,4 +48,5 @@
 					<li><?php next_posts_link('Next Page'); ?></li>
 				</ul>
 		</section>
+		<?php  wp_reset_postdata();  ?>
 <?php get_footer(); ?>

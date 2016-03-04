@@ -14,7 +14,7 @@ Text Domain:https:bahai
 body{
 	background: #f5f6f6;
 
-
+font-family: 'Lato';
 background: #FFEEEE; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #FFEEEE , #DDEFBB); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #FFEEEE , #DDEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */

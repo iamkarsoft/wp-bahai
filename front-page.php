@@ -93,7 +93,7 @@ And also check out Baha'i Blog's site for a variety of Baha'i related content: b
 
       </div>
 
-          <?php endforeach; ?>
+          <?php endforeach;   ?>
 
 
     </section>
