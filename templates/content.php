@@ -14,7 +14,7 @@
 				<h3 class="post-title"><a href="<?php the_permalink()?>"> <?php the_title(); ?></a></h3>
 				<!-- edit link --><h6><?php edit_post_link('edit','<small class="edit">','</small>') ?> <span><?php echo get_the_date(); ?></span></h6>
 
-				<section class="post-content">
+				<section class="post-content ">
 						<?php the_excerpt(); ?>
 
 						<br>

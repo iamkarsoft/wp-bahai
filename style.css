@@ -32,6 +32,13 @@ background: linear-gradient(to left, #FFEEEE , #DDEFBB); /* W3C, IE 10+/ Edge, F
 		font-size: large;
 }
 
+.post-content{
+	font-size:16px; 
+}
+
+.post-wrapper{
+	font-size: larger;
+}
 /*logo*/
 .logo{
 	width: 60px;
