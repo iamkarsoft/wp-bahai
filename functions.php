@@ -15,10 +15,10 @@ function theme_support(){
 
 function theme_styles(){
 
-	wp_enqueue_style('fonts-style', '//fonts.googleapis.com/css?family=Lato:300,300italic,700');
-	wp_enqueue_style('bootstrap-style', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
-	wp_enqueue_style('fontawesome-style', '//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
-	wp_enqueue_script('bootstrap-js', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js',array('jQuery'),'',false);
+	// wp_enqueue_style('fonts-style', '//fonts.googleapis.com/css?family=Lato:300,300italic,700');
+	// wp_enqueue_style('bootstrap-style', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
+	// wp_enqueue_style('fontawesome-style', '//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+	// wp_enqueue_script('bootstrap-js', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js',array('jQuery'),'',false);
 // to remove after development
 wp_enqueue_style('bootstraps-style',get_template_directory_uri().'/css/bootstrap.min.css');
 wp_enqueue_style('font-awesomes',get_template_directory_uri().'/css/font-awesome.min.css');
@@ -72,9 +72,11 @@ function theme_widgets_init(){
             'after_title'=>'</h1>'
           ) );
 
+    
+
            register_sidebar( array(
               'name' => __( 'Footer  Widget', 'bahai' ),
-              'id' => 'widget-4',
+              'id' => 'widget-footer',
         'before_widget'=>'<div class="main-widgets">',
             'after_widget'=>'</div>',
 

@@ -40,30 +40,31 @@ And also check out Baha'i Blog's site for a variety of Baha'i related content: b
         <div class="thumbnail">
     <?php if(!dynamic_sidebar('widget-1')) : ?>
           <p>
-            Add widget to first widgets.
+            <h1 class="widget-title">Add widget to this widgets.</h1>
           </p>
     <?php endif; ?>
     </div>
-  </div>
-  <div class="col-lg-4  col-sm-6">
+  </div><!-- /widget -->
+  <div class="col-lg-4   col-sm-6">
   <div class="thumbnail">
     <?php if(!dynamic_sidebar('widget-2')) : ?>
           <p>
-            Add widget to second widgets.
+            <h1 class="widget-title ">Add widget to this widgets.</h1>
           </p>
     <?php endif; ?>
     </div>
-  </div>
+  </div><!-- /widget -->
 
-    <div class="col-lg-4  col-sm-6">
+    <div class="col-lg-4   col-sm-6">
     <div class="thumbnail">
     <?php if(!dynamic_sidebar('widget-3')) : ?>
           <p>
-            Add widget to first widgets.
+            <h1 class="widget-title ">Add widget to this widgets.</h1>
           </p>
     <?php endif; ?>
   </div>
-  </div>
+  </div><!-- /widget -->
+
 
 
 		</section>

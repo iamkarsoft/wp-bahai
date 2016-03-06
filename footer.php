@@ -26,7 +26,7 @@ pause: hover
 
 	<div class="col-lg-4  col-sm-6">
 
-  <?php if(!dynamic_sidebar('widget-4')) : ?>
+  <?php if(!dynamic_sidebar('widget-footer')) : ?>
           <p>
            Add Footer widget here
           </p>

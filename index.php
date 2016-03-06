@@ -11,7 +11,7 @@
 
 															<div class="img-responsive"><?php the_post_thumbnail('featured-image'); ?></div>
 														</div>
-																		<div class="col-sm-4 col-md-6 lead "style="text-shadow: black 0.1em 0.1em 0.2em">
+																		<div class="col-sm-4 col-md-6 lead " style="text-shadow: black 0.1em 0.1em 0.2em">
 									            <h4 class="post-title page-header"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 									            <?php the_excerpt(); ?>
 																			</div>
