@@ -113,6 +113,9 @@ background: linear-gradient(to left, #FFEEEE , #DDEFBB); /* W3C, IE 10+/ Edge, F
 	padding: 2%;
 }
 
+.gallery-thumbnail{
+min-height: 300px;
+}
 .latest .thumbnail a{
 	text-decoration: none;
 	color: #000000;

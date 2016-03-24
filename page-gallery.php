@@ -10,6 +10,7 @@ get_header(); ?>
 				<?php get_template_part('templates/content','page-gallery'); ?>
 			<?php endif ?>
 			</div>
+
 	</section>
 <?php get_footer(); ?>
 

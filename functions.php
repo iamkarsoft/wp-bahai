@@ -38,6 +38,9 @@ register_nav_menu('primary','primary');
 //hook plugins into theme
  include_once dirname( __FILE__ ).'/wp-bahai-plugins.php';
 
+
+
+
  //hook plugins into theme
 
 function theme_widgets_init(){
