@@ -33,21 +33,19 @@ pause: hover
     <?php endif; ?>
 	</div>
 </footer>
-<script src="https://cdn.smooch.io/smooch.min.js"></script>
-<script>
-
-Smooch.init({
-    appToken: '41h367kgvi7tmc4meflpcj9nq',
-    givenName: 'Bahai',
-    surname: 'Chat?',
-      customText: {
-        headerText: 'How can we help?',
-        inputPlaceholder: 'Type a message...',
-        sendButtonText: 'Send',
-        introText: 'This is the beginning of your conversation.<br/> Ask us anything!',
-       settingsText: 'You can leave us your email so that we can get back to you this way.'
-    }
-
-});
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/56f3bca5d68ada7f0faa03f9/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
 </script>
+<!--End of Tawk.to Script-->
 </div><!-- /#wrapper -->
+</body>
+</html>
