@@ -2,10 +2,13 @@
 <section class="container">
 
    <section class="row">
-  <?php 
+
+<section class="jumbotron">  <?php 
 $slideid = get_field('slider_id');
     echo do_shortcode("[metaslider id=$slideid]"); 
 ?></section>
+
+</section>
 <?php 
 
 $images = get_field('image_gallery');
