@@ -3,7 +3,7 @@
 
    <section class="row">
 
-<section class="jumbotron">  <?php 
+<section class="jumbotron col-md-12">  <?php 
 $slideid = get_field('slider_id');
     echo do_shortcode("[metaslider id=$slideid]"); 
 ?></section>
