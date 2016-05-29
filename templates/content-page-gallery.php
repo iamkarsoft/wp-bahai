@@ -2,17 +2,7 @@
 
 <section class="blog-wrapper" >
 
-
-
-
-
-
-
-
-
-<?php the_content(); ?>
-
-<!-- <section class="latest container">
+<section class="latest container">
     <section class="col-md-12 latest-title">
           <div class="col-md-4"></div>
           <div class="col-md-4">
@@ -22,52 +12,39 @@
     </section>
 
     <section>
-       -->
+      
     <?php 
 
-// $args= array(
-//      'post_type' => 'envira',
-//      'post_per_page'=> $num_posts
-// );
+$args= array(
+     'post_type' => 'gallery',
+     'post_per_page'=> $num_posts
+);
 
-// $query = new wp_query( $args );
+$query = new wp_query( $args );
 ?>
 
 
-<?php 
+<?php if ($query -> have_posts()) : while( $query->have_posts()) : $query -> the_post(); ?>
 
-
-
-// if ($query -> have_posts()) : while( $query->have_posts()) : $query -> the_post(); 
-
-
-?>
-
-       <!--       <div class="col-lg-4  col-sm-6">
+             <div class="col-lg-4  col-sm-6">
         <div class="thumbnail">
-            <h4 class="post-title page-header"><a href="<?php //the_permalink(); ?>"><?php //the_title(); ?></a></h4> -->
-            <?php
+            <h4 class="post-title page-header"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+            <?php the_excerpt(); ?>
 
 
-             // the_excerpt(); 
-
-
-             ?>
-
-<!-- 
                   </div>
 
 
 
 
-      </div> -->
+      </div>
 
 
-<?php //endwhile; endif; wp_reset_postdata(); ?>
+<?php endwhile; endif; wp_reset_postdata(); ?>
 
 
-     
-<!--     </section> -->
+     ?>
+    </section>
       
 </section>
 
