@@ -23,9 +23,9 @@
             <ul class="list-inline text-center">
 			<li> <img src="<?php bloginfo('template_directory');?>/images/logo.png" title="bahai youth logo" alt="logo" class="logo img-responsive" /></li>
             <li style="margin-left:40px;"> <a href="<?php echo esc_url( home_url( '/' ) ); ?>"> <?php bloginfo('name'); ?></a></li>
-      <li><a href="#" target="_blank"><span class="fa fa-facebook fa-1x"></span></a></li>
-      <li><a href="#" target="_blank"><span class="fa fa-twitter fa-1x"></span></a></li>
-      <li><a href="#" target="_blank"><span class="fa fa-youtube fa-1x"></span></a></li>
+      <li><a href="http://www.facebook.com/bahaiyouthgh/" target="_blank"><span class="fa fa-facebook fa-1x"></span></a></li>
+<!--       <li><a href="#" target="_blank"><span class="fa fa-twitter fa-1x"></span></a></li> -->
+      <li><a href="https://www.youtube.com/channel/UCYiRj0786yzDGbUtfDCnIBA" target="_blank"><span class="fa fa-youtube fa-1x"></span></a></li>
     </ul>
           </div>
                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
