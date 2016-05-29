@@ -43,7 +43,7 @@ $query = new wp_query( $args );
 <?php endwhile; endif; wp_reset_postdata(); ?>
 
 
-     ?>
+     
     </section>
       
 </section>
