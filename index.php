@@ -9,7 +9,19 @@
 									          foreach($lastposts as $post) : setup_postdata($post); ?>
 														<div class="col-sm-4 col-md-6">
 
-															<div class="img-responsive"><?php the_post_thumbnail('featured-image'); ?></div>
+
+
+															<div class="img-responsive">
+
+
+															<?php //the_post_thumbnail('featured-image');
+																$image_src = wp_get_attachment_image_src( get_post_thumbnail_id(),'full' );
+     echo '<img src="' . $image_src[0]  . '" width="100%"  />';
+															 ?>
+																
+
+
+															</div>
 														</div>
 																		<div class="col-sm-4 col-md-6 lead " style="text-shadow: black 0.1em 0.1em 0.2em">
 									            <h4 class="post-title page-header"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>

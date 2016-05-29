@@ -28,7 +28,7 @@ pause: hover
 
   <?php if(!dynamic_sidebar('widget-footer')) : ?>
           <p>
-           Add Footer widget here
+          
           </p>
     <?php endif; ?>
 	</div>

@@ -40,7 +40,7 @@ And also check out Baha'i Blog's site for a variety of Baha'i related content: b
         <div class="thumbnail">
     <?php if(!dynamic_sidebar('widget-1')) : ?>
           <p>
-            <h1 class="widget-title">Add widget to this widgets.</h1>
+           
           </p>
     <?php endif; ?>
     </div>
@@ -49,7 +49,7 @@ And also check out Baha'i Blog's site for a variety of Baha'i related content: b
   <div class="thumbnail">
     <?php if(!dynamic_sidebar('widget-2')) : ?>
           <p>
-            <h1 class="widget-title ">Add widget to this widgets.</h1>
+            
           </p>
     <?php endif; ?>
     </div>
@@ -59,7 +59,7 @@ And also check out Baha'i Blog's site for a variety of Baha'i related content: b
     <div class="thumbnail">
     <?php if(!dynamic_sidebar('widget-3')) : ?>
           <p>
-            <h1 class="widget-title ">Add widget to this widgets.</h1>
+         
           </p>
     <?php endif; ?>
   </div>
